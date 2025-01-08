@@ -1,0 +1,12 @@
+numpyro
+jax[cuda12]
+dill
+flax
+tensorflow-datasets
+tensorflow[and-cuda]
+scikit-learn
+ruff
+jaxlib
+matplotlib
+tensorboard-plugin-profile # Needed for profiling
+numpyro @ git+https://github.com/pyro-ppl/numpyro.git@master  #TODO: remove upon release
